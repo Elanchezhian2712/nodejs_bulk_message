@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Production/Build files (Parcel)
+dist/
+.parcel-cache/
+
+# WhatsApp Session (CRITICAL: SECURITY RISK IF UPLOADED)
+.wwebjs_auth/
+.wwebjs_cache/
+session.json
+session.data.json
+
+# Environment variables
+.env
+
+# Backend Data (Exclude private phone numbers and votes)
+# We ignore the files but keep the folder structure
+backend/data/*.json
+backend/data/*.png
+data/*.json
+data/*.png
+
+# Logs
+npm-debug.log
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
